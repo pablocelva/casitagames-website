@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section className="content">
+        <section className="content-short">
             <h1>About CASITA Games</h1>
             <h3>Equipo</h3>
             <p>Valeria - Developer/Game Designer</p>

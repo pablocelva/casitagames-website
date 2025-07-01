@@ -1,6 +1,12 @@
 .content {
-  margin: 0;
-  height: 70vh;
+  margin: 3rem;
+  padding: 0 1rem;
+  /* height: 100vh; */
+}
+.content-short {
+  margin: 3rem;
+  padding: 0 1rem;
+  height: 100vh;
 }
 nav {
   display: flex;
@@ -41,9 +47,9 @@ h1 {
 .footer {
   background-color: #1a1a1a;
   color: white;
-  padding: 2rem;
+  padding: 3rem;
   /* text-align: center; */
-  font-size: 0.8rem;
+  font-size: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,6 +60,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
+  font-size: 1.5rem;
   list-style: none;
   padding: 0;
 }
@@ -66,10 +73,31 @@ h1 {
   padding: 0;
 }
 
+.juegos, .noticias, .about {
+  background-color: rgba(171, 26, 255, 0.193);
+  /* width: 80%; */
+  /* margin: auto; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: .5rem; */
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
+}
+
+.contact-layout {
+  width: 80%;
+  margin: auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: .5rem; */
+  padding: 0 1rem;
+}
+
 @media (max-width: 768px) {
   .content {
     margin: 0;
-    height: 75vh;
+    height: 100vh;
   }
   nav {
     flex-direction: column;
@@ -105,15 +133,24 @@ h1 {
   h1 {
     font-size: 2rem;
   }
-  .logos {
+  /* .logos {
     display: flex;
     flex-direction: column;
 
+  } */
+  .footer {
+    font-size: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
   }
 }
 
 @media (min-width: 1024px) {
-  nav, .footer {
+  nav {
     padding: 1rem 12rem;
+  }
+  .footer {
+    padding: 3rem 12rem;
   }
 }
