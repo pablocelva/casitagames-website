@@ -9,8 +9,8 @@ export default function Navbar() {
         <nav className="navbar">
                 <div className="nav-logos">
                     <Link className='img-logo-nav' to="/">
-                        <img src="src/assets/casita_games_logo.png" alt="Logo Casita Games" className='casita-logo-navbar' />
-                        <img src="src/assets/casita_gamesTXT_logo_450x48px.png" alt="Logo Casita Games" className='casita-logo' />
+                        <img src="./src/assets/casita_games_logo.png" alt="Logo Casita Games" className='casita-logo-navbar' />
+                        <img src="./src/assets/casita_gamesTXT_logo_450x48px.png" alt="Logo Casita Games" className='casita-logo' />
                     </Link>
                     <button className="hamburger" onClick={() => setOpen(!open)}>
                         ☰

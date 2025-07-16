@@ -5,10 +5,10 @@ export default function Home() {
         <section className="content">
             {/* <img src="src/assets/casita_gamesTXT_logo_450x48px.png" alt="Logo Casita Games" className='casita-logo-text' /> */}
             <h1>
-                <img src="src/assets/casita_gamesTXT_logo_450x48px.png" alt="Logo Casita Games" className='casita-logo-text' />
+                <img src="./src/assets/casita_gamesTXT_logo_450x48px.png" alt="Logo Casita Games" className='casita-logo-text' />
                 {/* CASITA Games */}
             </h1>
-            <img src="src/assets/casita_games_logo.png" alt="Ojito Game" className='casita-logo' />
+            <img src="./src/assets/casita_games_logo.png" alt="Ojito Game" className='casita-logo' />
             <p>Welcome to the home page of CASITA Games</p>
             
             <div className="juegos">

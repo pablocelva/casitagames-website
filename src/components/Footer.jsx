@@ -13,8 +13,8 @@ export default function Footer() {
     return (
         <footer className="footer">
             <Link className='img-logo-nav' to="/" >
-                <img src="src/assets/casita_games_logo.png" alt="Logo Casita Games" className='casita-logo-navbar' />
-                <img src="src/assets/casita_gamesTXT_logo_450x48px.png" alt="Logo Casita Games" className='casita-logo' />
+                <img src="./src/assets/casita_games_logo.png" alt="Logo Casita Games" className='casita-logo-navbar' />
+                <img src="./src/assets/casita_gamesTXT_logo_450x48px.png" alt="Logo Casita Games" className='casita-logo' />
             </Link>
             <div className="logos">
                 <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
