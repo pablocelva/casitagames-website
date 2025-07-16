@@ -18,7 +18,7 @@ export default function Navbar() {
                 </div>
                 <ul className={`nav-links ${open ? 'open' : ''}`}>
                     <li><Link to="/games" onClick={handleLinkClick}>Games</Link></li>
-                    <li><Link to="/blog" onClick={handleLinkClick}>Blog</Link></li>
+                    {/* <li><Link to="/blog" onClick={handleLinkClick}>Blog</Link></li> */}
                     <li><Link to="/about" onClick={handleLinkClick}>About</Link></li>
                     <li><Link to="/contact" onClick={handleLinkClick}>Contact</Link></li>
                 </ul>
