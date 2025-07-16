@@ -1,7 +1,65 @@
+:root {
+  --color-primario: #ff5733;
+  --color-cuarto: #2e86de;
+  --color-texto: #121212;
+  --color-fondo: #f1f1f1;
+  --color-secundario: #f5cc0e;
+  --color-azul: #3300cc;
+  --color-rojo:#ff0000;
+  --color-verde: #00913d;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* place-items: center; */
+  text-align: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  /* background-image: url('/src/assets/img/bkg_scissorsBIG_.png'); */
+  background-image: url('/src/assets/img/bkg_sky2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.casita-logo {
+  width: 10em;
+  height: auto;
+}
+.casita-logo-text {
+  width: 10em;
+  height: auto;
+}
+.casita-logo-navbar {
+  width: 4em;
+  height: auto;
+}
+.img-logo-nav {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+}
+
 .content {
   margin: 3rem;
   padding: 0 1rem;
-  /* height: 100vh; */
+  height: 100vh;
 }
 .content-short {
   margin: 3rem;
@@ -13,14 +71,13 @@ nav {
   /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
-  background-color: #1a1a1a;
-  color: white;
+  /* background-color: var(--color-fondo); */
+  /* color: white; */
   padding: 1rem 4rem;
 }
 .navbar ul {
   display: flex;
   justify-content: space-between;
-  background-color: #1a1a1a;
   color: white;
   list-style: none;
   gap: 1.5rem;
@@ -37,16 +94,26 @@ nav {
   /* font-size: 2rem; */
   background: none;
   border: none;
-  color: white;
+  color: var(--color-secundario);
 }
 
 h1 {
   text-align: center;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-secundario);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--color-primario);
 }
 
 .footer {
-  background-color: #1a1a1a;
-  color: white;
+  /* color: white; */
   padding: 3rem;
   /* text-align: center; */
   font-size: 1rem;
@@ -56,6 +123,7 @@ h1 {
 }
 
 .logos {
+  color: var(--color-secundario);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -74,7 +142,7 @@ h1 {
 }
 
 .juegos, .noticias, .about {
-  background-color: rgba(171, 26, 255, 0.193);
+  /* background-color: rgba(171, 26, 255, 0.193); */
   /* width: 80%; */
   /* margin: auto; */
   /* display: flex; */
@@ -92,6 +160,17 @@ h1 {
   /* flex-direction: column; */
   /* gap: .5rem; */
   padding: 0 1rem;
+}
+
+.games-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -143,14 +222,54 @@ h1 {
     flex-direction: column;
     gap: 2rem;
     padding: 3rem;
+    /* margin-top: 6em; */
   }
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  border: 2px solid var(--color-secundario);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: transparent;
+}
+
+button:hover {
+  border-color: var(--color-primario);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (min-width: 1024px) {
   nav {
     padding: 1rem 12rem;
   }
+  /* .contact-layout{
+    min-height: 100vh;
+  } */
   .footer {
+    /* margin-top: 3em; */
     padding: 3rem 12rem;
   }
 }
+
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

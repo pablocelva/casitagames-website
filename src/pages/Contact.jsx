@@ -34,12 +34,12 @@ export default function Contact() {
                     <a href="https://instagram.com" target="_blank" rel="noreferrer">
                         <FaInstagram className="inline w-6 h-6 hover:text-pink-400" />
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                    {/* <a href="https://twitter.com" target="_blank" rel="noreferrer">
                         <FaTwitter className="inline w-6 h-6 hover:text-blue-400" />
-                    </a>
-                    <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                    </a> */}
+                    {/* <a href="https://facebook.com" target="_blank" rel="noreferrer">
                         <FaFacebook className="inline w-6 h-6 hover:text-blue-400" />
-                    </a>
+                    </a> */}
                 </div>
                 <br />
                 <h3>Contact Us!</h3>
