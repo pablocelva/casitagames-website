@@ -10,7 +10,7 @@ export default function About() {
             <p>Pablo - Music Composer/Web Developer</p> 
             <p>Parappita - Baby & Inspiration</p>  
             <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/img/bkg_desktopstuff_.png" alt="Tools" className='img-tools' />
-            <Footer />
+            {/* <Footer /> */}
         </section>
     )
 }

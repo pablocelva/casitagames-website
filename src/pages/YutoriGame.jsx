@@ -6,8 +6,8 @@ export default function YutoriGame() {
             <h1>Yutori Game</h1>
             <h3>Yutori Game</h3>
             <p>Yutori Game is a game where you explore the calm in this minimalist puzzles game.</p>
-            <img src="./src/assets/img/yutori/yutori1.png" alt="Tools" className='game-image' />
-            <Footer />
+            <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/img/yutori/yutori1.png" alt="Tools" className='game-image' />
+            {/* <Footer /> */}
         </section>
     )
 }

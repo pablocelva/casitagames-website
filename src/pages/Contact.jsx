@@ -48,7 +48,7 @@ export default function Contact() {
                 <p>We are always happy to hear from you and are here to help!</p>
                 <p>Thank you for choosing Casita Games!</p>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </section>
     )
 }

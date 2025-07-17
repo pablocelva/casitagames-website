@@ -6,7 +6,7 @@ export default function Blog() {
             <h1>Blog</h1>
             <h3>Latest News</h3>
             <p>OJITO Demo in development</p>
-            <Footer/>
+            {/* <Footer/> */}
         </section>
     )
 }

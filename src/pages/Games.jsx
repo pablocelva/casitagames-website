@@ -5,13 +5,13 @@ const games = [
     {
         title: 'Ojito',
         description: 'Un juego visual donde entrenas tu percepción y memoria.',
-        image: './src/assets/img/ojito/ojitoteam_450x200px.png',
+        image: 'https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/img/ojito/ojitoteam_450x200px.png',
         link: '/ojito',
     },
     {
         title: 'Yutori',
         description: 'Explora la calma en este juego de puzzles minimalistas.',
-        image: './src/assets/img/yutori/yutori1.png',
+        image: 'https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/img/yutori/yutori1.png',
         link: '/yutori',
     },
 ];
@@ -47,7 +47,7 @@ export default function Games() {
                 width="80%"
                 height="300px"
                 ></iframe> */}
-            <Footer />
+            {/* <Footer /> */}
         </section>
         
     )

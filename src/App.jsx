@@ -24,7 +24,7 @@ function App() {
         <Route path="/ojito" element={<OjitoGame />} />
         <Route path="/yutori" element={<YutoriGame />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

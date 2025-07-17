@@ -37,7 +37,7 @@ export default function Home() {
                     <Link to="/about">Read More</Link>
                 </button>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </section>
     )
 }
