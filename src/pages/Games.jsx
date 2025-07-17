@@ -5,7 +5,7 @@ const games = [
     {
         title: 'Ojito',
         description: 'Un juego visual donde entrenas tu percepción y memoria.',
-        image: 'https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/img/ojito/ojitoteam_450x200px.png',
+        image: 'https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/img/ojito/ojito2.png',
         link: '/ojito',
     },
     {
@@ -28,7 +28,7 @@ export default function Games() {
             <div className="games-grid">
                 {games.map((game) => (
                 <div className="game-card" key={game.title}>
-                    <img src={game.image} alt={game.title} className='game-image' />
+                    <img src={game.image} alt={game.title} className='card-image' />
                     <div className="card-content">
                     <h2>{game.title}</h2>
                     <p>{game.description}</p>
