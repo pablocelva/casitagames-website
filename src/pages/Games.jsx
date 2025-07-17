@@ -23,24 +23,24 @@ export default function Games() {
             {/* <h3>OJITO</h3> */}
             {/* <h3>YUTORI</h3> */}
             {/* <h3>Parappita Sim</h3> */}
-            <section className="games-section">
-                <h1>GAMES</h1>
-                <div className="games-grid">
-                    {games.map((game) => (
-                    <div className="game-card" key={game.title}>
-                        <img src={game.image} alt={game.title} className='game-image' />
-                        <div className="card-content">
-                        <h2>{game.title}</h2>
-                        <p>{game.description}</p>
-                        <button>
-                            <Link to={game.link} >Ver más</Link>
-                            {/* <a href={game.link}>Ver más</a> */}
-                        </button>
-                        </div>
+            {/* <section className="games-section"> */}
+            <h1>GAMES</h1>
+            <div className="games-grid">
+                {games.map((game) => (
+                <div className="game-card" key={game.title}>
+                    <img src={game.image} alt={game.title} className='game-image' />
+                    <div className="card-content">
+                    <h2>{game.title}</h2>
+                    <p>{game.description}</p>
+                    <button>
+                        <Link to={game.link} >Ver más</Link>
+                        {/* <a href={game.link}>Ver más</a> */}
+                    </button>
                     </div>
-                    ))}
                 </div>
-            </section>
+                ))}
+            </div>
+            {/* </section> */}
             {/* <iframe
                 frameborder="0"
                 src="https://play.unity.com/en/games/8d764a63-55cc-4ee6-b8fe-af229f550cb6/flappybird-build"
