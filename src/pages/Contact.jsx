@@ -7,6 +7,7 @@ import {
     FaTwitter, 
     FaYoutube 
 } from 'react-icons/fa'
+import Footer from '../components/Footer'
 
 export default function Contact() {
     return (
@@ -47,6 +48,7 @@ export default function Contact() {
                 <p>We are always happy to hear from you and are here to help!</p>
                 <p>Thank you for choosing Casita Games!</p>
             </div>
+            <Footer />
         </section>
     )
 }

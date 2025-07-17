@@ -1,16 +1,18 @@
+import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 
 const games = [
     {
         title: 'Ojito',
         description: 'Un juego visual donde entrenas tu percepción y memoria.',
-        image: '/src/assets/img/bkg_desktopstuff_.png',
-        link: '#',
+        image: './src/assets/img/ojito/ojitoteam_450x200px.png',
+        link: '/ojito',
     },
     {
         title: 'Yutori',
         description: 'Explora la calma en este juego de puzzles minimalistas.',
-        image: '/src/assets/img/bkg_desktopstuff_.png',
-        link: '#',
+        image: './src/assets/img/yutori/yutori1.png',
+        link: '/yutori',
     },
 ];
 
@@ -26,12 +28,13 @@ export default function Games() {
                 <div className="games-grid">
                     {games.map((game) => (
                     <div className="game-card" key={game.title}>
-                        <img src={game.image} alt={game.title} />
+                        <img src={game.image} alt={game.title} className='game-image' />
                         <div className="card-content">
                         <h2>{game.title}</h2>
                         <p>{game.description}</p>
                         <button>
-                            <a href={game.link}>Ver más</a>
+                            <Link to={game.link} >Ver más</Link>
+                            {/* <a href={game.link}>Ver más</a> */}
                         </button>
                         </div>
                     </div>
@@ -44,6 +47,7 @@ export default function Games() {
                 width="80%"
                 height="300px"
                 ></iframe> */}
+            <Footer />
         </section>
         
     )

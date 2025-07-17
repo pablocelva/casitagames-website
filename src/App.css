@@ -33,7 +33,7 @@ body {
   color: var(--color-texto);
   /* background-image: url('/src/assets/img/bkg_scissorsBIG_.png'); */
   background-image: url('/src/assets/img/bkg_sky2.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat revert;
   background-size: cover;
   background-position: center;
 }
@@ -61,6 +61,14 @@ body {
   border-radius: 50px;
   margin-top: 2em;
   opacity: 0.75;
+}
+.game-image {
+  width: 250px;
+  /* height: 100%; */
+  border-radius: 1rem;
+}
+.game-card {
+  padding: 1em;
 }
 
 .casita-logo-navbar:hover {
@@ -252,6 +260,11 @@ a:hover {
     margin: 0;
     padding: 0;
     border-radius: 20px;
+  }
+  .game-image {
+    width: 80%;
+    /* height: 100%; */
+    /* border-radius: 1rem; */
   }
 }
 
