@@ -1,0 +1,709 @@
+:root {
+  --color-primario: #ff5733;
+  --color-cuarto: #2e86de;
+  --color-texto: #121212;
+  --color-fondo: #f1f1f1;
+  --color-secundario: #f5cc0e;
+  --color-azul: #3300cc;
+  --color-rojo:#ff0000;
+  --color-verde: #00913d;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+@font-face {
+  font-family: Daydream;
+  src: url(/src/assets/fonts/Daydream.ttf);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* place-items: center; */
+  text-align: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  /* background-image: url('/src/assets/img/bkg_scissorsBIG_.png'); */
+  background-image: url('/src/assets/img/bkg_sky2.png');
+  background-repeat: repeat revert;
+  background-size: cover;
+  background-position: center;
+}
+
+.casita-logo {
+  width: 10em;
+  height: auto;
+}
+.casita-logo-text {
+  width: 10em;
+  height: auto;
+}
+.casita-logo-navbar {
+  width: 4em;
+  height: auto;
+}
+.img-logo-nav {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+}
+
+.img-tools {
+  width: 50%;
+  border-radius: 50px;
+  margin-top: 2em;
+  /* opacity: 0.75; */
+}
+.games-grid {
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.game-image {
+  width: 400px;
+  /* height: 100%; */
+  border-radius: 1rem;
+}
+
+.ojito-image {
+  width: 80%;
+  /* height: 100%; */
+  border-radius: 1rem;
+}
+
+.card-image {
+  width: 80%;
+  /* height: 100%; */
+  border-radius: 1rem;
+}
+
+.card-image:hover {
+  transform: translate(0, -8px);
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-image:hover {
+  /* transform: scale(1.05); */
+  transform: translate(0, -4px);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.game-card {
+  padding: 1em;
+}
+
+.ojito-galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  /* background-color: #2e86de; */
+  /* opacity: 0.85; */
+}
+
+.game-store-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.logos-game {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.casita-logo-navbar:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.casita-logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.casita-logo-text:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.content {
+  /* margin: 3rem; */
+  padding: 0 1rem;
+  height: 100vh;
+}
+/* .content-short {
+  margin: 3rem;
+  padding: 0 1rem;
+  height: 100vh;
+} */
+nav {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: var(--color-fondo); */
+  /* color: white; */
+  padding: 1rem 4rem;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-logos {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--color-secundario);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: daydream;
+}
+.title-h2 {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 2em;
+  /* line-height: 1.1; */
+  font-family: daydream;
+}
+
+h1:hover {
+  transform: translate(0, -4px);
+  transition: transform 0.5s ease-in-out;
+}
+h2:hover {
+  transform: translate(0, -4px);
+  transition: transform 0.5s ease-in-out;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-secundario);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--color-primario);
+  transform: translate(0, -4px);
+  transition: transform 0.5s ease-in-out;
+}
+
+.footer {
+  /* color: white; */
+  padding: 3rem;
+  /* text-align: center; */
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos {
+  color: var(--color-secundario);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.logos-contact {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.juegos, .noticias, .about {
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
+}
+
+
+.games-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.ojito-section {
+  background-color: var(--color-cuarto);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  width: 75%;
+  margin: 1em auto;
+  padding: 1rem;
+}
+.game-desc-grid {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* gap: 1rem; */
+}
+
+.game-about {
+  width: 80%;
+  justify-content: left;
+}
+
+.game-info {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 20%;
+  /* justify-content: left; */
+  /* padding: 1rem; */
+}
+
+.team-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  width: 85%;
+  margin: auto;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 300px;
+  margin: auto;
+  background-color: var(--color-cuarto);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-img {
+  width: 180px;
+}
+
+h4,h2 {
+  margin: 0;
+}
+
+.team-bio {
+  text-align: left;
+  padding: 1rem;
+  margin: 0;
+}
+
+.team-social {
+  display: flex;
+  gap: .5rem;
+  padding: .5em;
+}
+
+.carousel {
+  width: 75%;
+  margin: auto;
+  /* height: 100%; */
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  gap: 1em;
+  margin-bottom: 3em;
+  anchor-name: --carousel;
+  scroll-snap-type: x mandatory;
+  scroll-marker-group: after;
+}
+
+.carousel::scroll-marker-group {
+  display: flex;
+  justify-content: center;
+  gap: .5em;
+}
+
+.carousel-card::scroll-marker {
+  content: '';
+  translate: 0 -2em;
+  /* margin-top: .5em; */
+  height: 1em;
+  width: 1em;
+  background-color: var(--color-secundario);
+  border-radius: 50%;
+}
+
+.carousel-card::scroll-marker:target-current {
+  background-color: var(--color-primario);
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel::scroll-button(right), 
+.carousel::scroll-button(left) {
+  content: '→';
+  border: none;
+  background-color: var(--color-cuarto);
+  font-family: Consolas, monospace;
+  font-size: 2rem;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-bottom: .1em;
+  cursor: pointer;
+  position: fixed;
+  position-anchor: --carousel;
+  position-area: right center;
+  translate: -120%;
+}
+
+.carousel::scroll-button(left){
+  content: '←';
+  position-area: left center;
+  translate: 120%;
+}
+
+.carousel::scroll-button(right):disabled,
+.carousel::scroll-button(left):disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.carousel-card {
+  scroll-snap-align: start;
+  flex: 0 0 100%;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  border-radius: .5em;
+}
+
+.carousel-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.about {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 1rem;
+  background-color: var(--color-cuarto);
+}
+
+
+button {
+  background-color: var(--color-secundario);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /* border: 2px solid var(--color-secundario); */
+  cursor: pointer;
+  transition: border-color 0.25s;
+  /* background-color: transparent; */
+}
+
+button:hover {
+  color: #f1f1f1;
+  background-color: var(--color-primario);
+  /* border-color: var(--color-primario); */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Contact.css */
+.contact-layout {
+  /* width: 80%; */
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* gap: .5rem; */
+  padding: 0 1.5rem;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px var(--color-cuarto);
+}
+.contact-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  /* background: #ffffff; */
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px var(--color-cuarto);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  margin-top: 0.5rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.6rem;
+  font-size: 0.95rem;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  background: #fafafa;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  /* border-color: var(--color-primario);  */
+  box-shadow: 0 0 0 3px var(--color-secundario);
+  background: #fff;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  /* background: linear-gradient(135deg, #4f46e5, #6366f1); */
+  /* color: white; */
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.contact-form button:hover {
+  color: white;
+  /* background: linear-gradient(135deg, #4338ca, #4f46e5); */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px var(--color-cuarto);
+}
+
+.contact-form button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px var(--color-cuarto);
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    width: 85%;
+    padding-bottom: 2em;
+    gap: 1em;
+  }
+  .carousel {
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  .content {
+    margin: 0;
+    height: 100vh;
+  }
+  nav {
+    flex-direction: column;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 0;
+    align-items: center;
+  }
+  .navbar ul {
+    justify-content: center;
+    /* height: 100vh; */
+    display: none;
+    padding: 1.2rem 0;
+    margin: 0;
+    flex-direction: column;
+    gap: 1rem; 
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* position: absolute; */
+    /* background-color: var(--color-cuarto); */
+  }
+  .nav-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+  .nav-links.open {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  /* .logos {
+    display: flex;
+    flex-direction: column;
+
+  } */
+
+  .footer {
+    font-size: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    /* margin-top: 6em; */
+  }
+  .content-short{
+    margin: 0;
+    padding: 0;
+  }
+  .game-card {
+    padding: 1em 0;
+  }
+  .img-tools {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+  }
+  .game-image {
+    width: 90%;
+    /* height: 100%; */
+    /* border-radius: 1rem; */
+  }
+  .ojito-image {
+    width: 95%;
+  }
+  .card-image {
+    width: 90%;
+  }
+  .ojito-section {
+    width: 90%;
+    /* flex-direction: column; */
+  }
+  .game-desc-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 1rem; */
+  }
+  .game-about {
+    width: 100%;
+  }
+  .game-info {
+    width: 100%;
+  }
+  .games-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 1rem; */
+    /* padding: 0 1em; */
+  }
+}
+
+@media (min-width: 960px) {
+  nav {
+    padding: 1rem 12rem;
+  }
+  /* .contact-layout{
+    min-height: 100vh;
+  } */
+  .games-grid {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .card-image {
+    width: 500px;
+    /* height: 100%; */
+    /* border-radius: 1rem; */
+  }
+
+  .about {
+    flex-direction: row;
+    gap: .5em;
+    padding: 3em;
+  }
+
+  .about-desc {
+    width: 50%;
+  }
+
+  .about-logo {
+    width: 50%;
+    gap: .5em;
+    display: flex;
+  }
+  
+  .footer {
+    /* margin-top: 3em; */
+    padding: 3rem 12rem;
+  }
+}
