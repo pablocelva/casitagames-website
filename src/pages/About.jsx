@@ -16,14 +16,14 @@ export default function About() {
                         <p>Casita Games es un estudio independiente de desarrollo de videojuegos, creado por una familia de personas sensibles y creativas.</p>
                         <p>Somos un equipo que se dedica a la creación de juegos que reflejen la diversidad cultural y sensible de nuestra comunidad, con enfoque en la creatividad, el humor, la diversidad, la poesía y el surrealismo.</p>
                         <Link to="/games">
-                            <button>Nuestros Juegos</button>
+                            <button className='games-button'>Nuestros Juegos</button>
                         </Link>
                     </div>    
             </div>
             <h2 className='title-h2'>Equipo</h2>
             <div className="team-galeria">
                 <div className="team-card">
-                    <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/6148ad639d7847528bd20a9eb0e0227106abde08/src/assets/casita_games_logo.png" alt="Team" className='team-img' />
+                    <img src="./src/assets/casita_games_logo.png" alt="Team" className='team-img' />
                     <div className="team-title">
                         <h2>Valeria Hernández</h2>
                         <h4>Developer / Game Designer</h4>
@@ -46,7 +46,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="team-card">
-                    <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/6148ad639d7847528bd20a9eb0e0227106abde08/src/assets/casita_games_logo.png" alt="Team" className='team-img' />
+                    <img src="./src/assets/casita_games_logo.png" alt="Team" className='team-img' />
                     <div className="team-title">
                         <h2>Alexia Bobadilla</h2>
                         <h4>Animator / Concept Artist</h4>
@@ -65,7 +65,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="team-card">
-                    <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/6148ad639d7847528bd20a9eb0e0227106abde08/src/assets/casita_games_logo.png" alt="Team" className='team-img' />
+                    <img src="./src/assets/casita_games_logo.png" alt="Team" className='team-img' />
                     <div className="team-title">
                         <h2>Pablo Lambert</h2>
                         <h4>Composer / Developer / UX</h4>

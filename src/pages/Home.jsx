@@ -27,7 +27,7 @@ export default function Home() {
                     <p>Casita Games es un estudio independiente de desarrollo de videojuegos, creado por una familia de personas sensibles y creativas.</p>
                     <p>Somos un equipo que se dedica a la creación de juegos que reflejen la diversidad cultural y sensible de nuestra comunidad, con enfoque en la creatividad, el humor, la diversidad, la poesía y el surrealismo.</p>
                     <Link to="/games">
-                        <button>
+                        <button className='games-button'>
                         Nuestros Juegos
                         </button>
                     </Link>

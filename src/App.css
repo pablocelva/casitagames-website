@@ -279,8 +279,10 @@ a:hover {
 }
 
 .ojito-section {
-  background-color: var(--color-cuarto);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px var(--color-cuarto);
+  /* background-color: var(--color-cuarto); */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   border-radius: 1rem;
   width: 75%;
   margin: 1em auto;
@@ -327,8 +329,10 @@ a:hover {
   border-radius: 1rem;
   width: 300px;
   margin: auto;
-  background-color: var(--color-cuarto);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px var(--color-cuarto);
+  /* background-color: var(--color-cuarto); */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 .team-img {
@@ -441,7 +445,9 @@ h4,h2 {
   flex-direction: column;
   padding: 1em;
   border-radius: 1rem;
-  background-color: var(--color-cuarto);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px var(--color-cuarto);
+  /* background-color: var(--color-cuarto); */
 }
 
 
@@ -467,6 +473,19 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.games-button {
+  /* border-radius: 8px; */
+  /* border: 1px solid transparent; */
+  padding: 1em 3em;
+  font-size: 1.2em;
+  font-weight: 500;
+  /* font-family: inherit; */
+  /* border: 2px solid var(--color-secundario); */
+  cursor: pointer;
+  transition: border-color 0.25s;
+  /* background-color: transparent; */
 }
 
 /* Contact.css */
@@ -577,12 +596,12 @@ button:focus-visible {
   }
   .navbar ul {
     justify-content: center;
-    /* height: 100vh; */
+    height: 83vh;
     display: none;
     padding: 1.2rem 0;
     margin: 0;
     flex-direction: column;
-    gap: 1rem; 
+    gap: 1.8rem; 
     align-items: center;
     top: 0;
     left: 0;
