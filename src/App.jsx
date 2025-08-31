@@ -9,12 +9,14 @@ import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
   return (
     <>    
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/games" element={<Games />} />

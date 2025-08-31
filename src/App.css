@@ -595,13 +595,13 @@ button:focus-visible {
     align-items: center;
   }
   .navbar ul {
-    justify-content: center;
-    height: 83vh;
+    height: 80vh;
+    justify-content: space-around;
     display: none;
     padding: 1.2rem 0;
     margin: 0;
     flex-direction: column;
-    gap: 1.8rem; 
+    /* gap: 3rem;  */
     align-items: center;
     top: 0;
     left: 0;
@@ -613,6 +613,7 @@ button:focus-visible {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* gap: 2rem; */
     width: 100%;
 }
   .nav-links.open {
@@ -684,6 +685,11 @@ button:focus-visible {
     justify-content: center;
     /* gap: 1rem; */
     /* padding: 0 1em; */
+  }
+  
+  .carousel::scroll-button(right), 
+  .carousel::scroll-button(left) {
+    display: none;
   }
 }
 
