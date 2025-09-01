@@ -595,8 +595,8 @@ button:focus-visible {
     align-items: center;
   }
   .navbar ul {
-    height: 80vh;
-    justify-content: space-around;
+    height: 79vh;
+    justify-content: space-evenly;
     display: none;
     padding: 1.2rem 0;
     margin: 0;
