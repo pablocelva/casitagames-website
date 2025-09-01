@@ -27,7 +27,7 @@ export default function YutoriGame() {
                                     <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
                                         <FaSteam className="inline w-6 h-6 hover:text-gray-400" />
                                     </a>
-                                    <a href="https://itch.io" target="_blank" rel="noreferrer">
+                                    <a href="https://casita-games.itch.io/yutori" target="_blank" rel="noreferrer">
                                         <FaItchIo className="inline w-6 h-6 hover:text-red-400" />
                                     </a>
                                 </div>
