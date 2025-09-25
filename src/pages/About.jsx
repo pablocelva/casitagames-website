@@ -52,6 +52,7 @@ export default function About() {
                         <h4>Animator / Concept Artist</h4>
                     </div>
                     <p className="team-bio">Alexia is a passionate and creative individual who is dedicated to creating the best possible gaming experience for our players.</p>
+                    <a href="https://alexiabobadilla.straw.page/" target='blank' rel="noreferrer">Website</a>
                     <div className="team-social">
                         <a href="https://youtube.com/@AlexiaBobadilla" className='logos' target="_blank" rel="noreferrer">
                             <FaYoutube className="inline w-6 h-6 hover:text-red-400" />
@@ -71,6 +72,7 @@ export default function About() {
                         <h4>Composer / Developer / UX</h4>
                     </div>
                     <p className="team-bio">Pablo is a passionate and creative individual who is dedicated to creating the best possible gaming experience for our players.</p>
+                    <a href="https://pablocelva.github.io/celvaprod-react-three-fiber/" target='blank' rel="noreferrer">Website</a>
                     <div className="team-social">
                         <a href="https://pablocelva.itch.io/" className='logos' target="_blank" rel="noreferrer">
                             <FaItchIo className="inline w-6 h-6 hover:text-red-400" />

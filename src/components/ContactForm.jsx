@@ -1,6 +1,10 @@
 export default function ContactForm() {
     return (
-        <form className="contact-form">
+        <form 
+            className="contact-form"
+            action="https://formspree.io/f/xvgwgbpv"
+            method="POST"
+        >
             <label>
                 Nombre:
                 <input 
