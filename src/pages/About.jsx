@@ -23,7 +23,7 @@ export default function About() {
             <h2 className='title-h2'>Equipo</h2>
             <div className="team-galeria">
                 <div className="team-card">
-                    <img src="./src/assets/casita_games_logo.png" alt="Team" className='team-img' />
+                    <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/casita_games_logo.png" alt="Team" className='team-img' />
                     <div className="team-title">
                         <h2>Valeria Hernández</h2>
                         <h4>Developer / Game Designer</h4>
@@ -46,7 +46,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="team-card">
-                    <img src="./src/assets/casita_games_logo.png" alt="Team" className='team-img' />
+                    <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/casita_games_logo.png" alt="Team" className='team-img' />
                     <div className="team-title">
                         <h2>Alexia Bobadilla</h2>
                         <h4>Animator / Concept Artist</h4>
@@ -66,7 +66,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="team-card">
-                    <img src="./src/assets/casita_games_logo.png" alt="Team" className='team-img' />
+                    <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/casita_games_logo.png" alt="Team" className='team-img' />
                     <div className="team-title">
                         <h2>Pablo Lambert</h2>
                         <h4>Composer / Developer / UX</h4>
