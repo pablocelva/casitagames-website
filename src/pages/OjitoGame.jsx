@@ -25,9 +25,9 @@ export default function OjitoGame() {
                 <div className="game-store-links">
                     <h2>Store</h2>
                     <div className='logos-game'>
-                        <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
+                        {/* <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
                             <FaSteam className="inline w-6 h-6 hover:text-gray-400" />
-                        </a>
+                        </a> */}
                         <a href="https://casita-games.itch.io/ojito" target="_blank" rel="noreferrer">
                             <FaItchIo className="inline w-6 h-6 hover:text-red-400" />
                         </a>

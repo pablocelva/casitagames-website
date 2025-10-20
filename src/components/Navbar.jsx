@@ -34,15 +34,15 @@ export default function Navbar() {
                     <li><Link to="/contact" onClick={handleLinkClick}>Contacto</Link></li>
                 </ul>
                 <div className="logos">
-                    <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
+                    {/* <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
                         <FaSteam className="inline w-6 h-6 hover:text-gray-400" />
-                    </a>
+                    </a> */}
                     <a href="https://casita-games.itch.io/" target="_blank" rel="noreferrer">
                         <FaItchIo className="inline w-6 h-6 hover:text-red-400" />
                     </a>
-                    <a href="https://discord.gg" target="_blank" rel="noreferrer">
+                    {/* <a href="https://discord.gg" target="_blank" rel="noreferrer">
                         <FaDiscord className="inline w-6 h-6 hover:text-indigo-400" />
-                    </a>
+                    </a> */}
                     <a href="https://youtube.com/@CasitaGames" target="_blank" rel="noreferrer">
                         <FaYoutube className="inline w-6 h-6 hover:text-red-400" />
                     </a>

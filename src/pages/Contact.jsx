@@ -20,15 +20,15 @@ export default function Contact() {
                 <p>Siguenos en nuestras redes sociales para enterarte más sobre nuestros proyectos! Si deseeas escribirnos rellena en formulario mas abajo o escribenos directamente a <a href="mailto:contactocasitagames@gmail.com">contactocasitagames@gmail.com</a></p>
                 <h3>Follow Casita Games!</h3>
                 <div className="logos">
-                    <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
+                    {/* <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
                         <FaSteam className="inline w-6 h-6 hover:text-gray-400" />
-                    </a>
+                    </a> */}
                     <a href="https://casita-games.itch.io/" target="_blank" rel="noreferrer">
                         <FaItchIo className="inline w-6 h-6 hover:text-red-400" />
                     </a>
-                    <a href="https://discord.gg" target="_blank" rel="noreferrer">
+                    {/* <a href="https://discord.gg" target="_blank" rel="noreferrer">
                         <FaDiscord className="inline w-6 h-6 hover:text-indigo-400" />
-                    </a>
+                    </a> */}
                     <a href="https://youtube.com/@CasitaGames" target="_blank" rel="noreferrer">
                         <FaYoutube className="inline w-6 h-6 hover:text-red-400" />
                     </a>

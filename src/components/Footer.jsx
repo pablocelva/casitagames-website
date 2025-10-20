@@ -17,15 +17,15 @@ export default function Footer() {
                 <img src="https://raw.githubusercontent.com/pablocelva/casitagames-website/refs/heads/main/src/assets/casita_gamesTXT_logo_450x48px.png" alt="Logo Casita Games" className='casita-logo' />
             </Link>
             <div className="logos">
-                <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
+                {/* <a href="https://store.steampowered.com" target="_blank" rel="noreferrer">
                     <FaSteam className="inline w-6 h-6 hover:text-gray-400" />
-                </a>
+                </a> */}
                 <a href="https://casita-games.itch.io/" target="_blank" rel="noreferrer">
                     <FaItchIo className="inline w-6 h-6 hover:text-red-400" />
                 </a>
-                <a href="https://discord.gg" target="_blank" rel="noreferrer">
+                {/* <a href="https://discord.gg" target="_blank" rel="noreferrer">
                     <FaDiscord className="inline w-6 h-6 hover:text-indigo-400" />
-                </a>
+                </a> */}
                 <a href="https://youtube.com/@CasitaGames" target="_blank" rel="noreferrer">
                     <FaYoutube className="inline w-6 h-6 hover:text-red-400" />
                 </a>
